@@ -23,5 +23,7 @@
 hs_err_pid*
 
 # 忽略项目相关目录/文件
-.idea/
+.idea
 .DS_Store
+*.iml
+out
