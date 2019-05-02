@@ -3,8 +3,11 @@ package Easy._1;
 import java.util.Arrays;
 
 /*
-暴力解法，直接两边遍历
+暴力解法，直接两遍遍历
 Violent solution, traversal two times
+
+执行用时 : 129 ms, 在Two Sum的Java提交中击败了5.04% 的用户
+内存消耗 : 37.3 MB, 在Two Sum的Java提交中击败了90.30% 的用户
  */
 class Solution {
 
