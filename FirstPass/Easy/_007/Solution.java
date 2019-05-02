@@ -1,4 +1,4 @@
-package Easy._7;
+package Easy._007;
 
 /*
 结果较好，无需优化
