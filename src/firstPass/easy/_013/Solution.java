@@ -1,4 +1,4 @@
-package Easy._013;
+package firstPass.easy._013;
 
 import java.util.HashMap;
 import java.util.Map;

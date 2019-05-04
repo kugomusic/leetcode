@@ -1,4 +1,4 @@
-package Easy._007;
+package firstPass.easy._007;
 
 /*
 结果较好，无需优化

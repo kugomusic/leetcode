@@ -1,4 +1,4 @@
-package Easy._001;
+package firstPass.easy._001;
 
 import java.util.Arrays;
 

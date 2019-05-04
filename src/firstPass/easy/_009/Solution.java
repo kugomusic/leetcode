@@ -1,4 +1,4 @@
-package Easy._009;
+package firstPass.easy._009;
 
 /*
 暴力破解，把int转化为String，并使用charAt方法对比首尾字母是否一致（比较一半即可）

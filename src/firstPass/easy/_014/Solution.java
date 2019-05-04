@@ -1,4 +1,4 @@
-package Easy._014;
+package firstPass.easy._014;
 
 /*
 第一趟遍历找出最短字符串长度len，第二趟遍历检查公共前缀

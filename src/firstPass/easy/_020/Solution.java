@@ -1,4 +1,4 @@
-package Easy._020;
+package firstPass.easy._020;
 
 import java.util.Stack;
 
