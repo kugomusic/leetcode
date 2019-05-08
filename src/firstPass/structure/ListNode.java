@@ -7,8 +7,8 @@ public class ListNode {
     public ListNode next;
     public ListNode(int x) { val = x; }
 
-    // 根据数组创建测试数据
-    // Create test data from list of int
+    // 根据字符串创建测试数据
+    // Create test data from string
     public static ListNode createTestData(String data){
         if (data.equals("[]")){
             return null;
