@@ -26,9 +26,9 @@ public class TreeNode {
             if (leftIndex < len) {
                 treeNodes[i].left = treeNodes[leftIndex];
             }
-            int righttIndex = leftIndex + 1;
-            if (righttIndex < len) {
-                treeNodes[i].left = treeNodes[righttIndex];
+            int rightIndex = leftIndex + 1;
+            if (rightIndex < len) {
+                treeNodes[i].right = treeNodes[rightIndex];
             }
         }
         return treeNodes[0];
