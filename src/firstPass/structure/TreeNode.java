@@ -1,5 +1,8 @@
 package firstPass.structure;
 
+
+// 定义二叉树
+// Definition for Binary tree
 public class TreeNode {
     public int val;
     public TreeNode left;
@@ -34,14 +37,35 @@ public class TreeNode {
         return treeNodes[0];
     }
 
-//    public static void print(TreeNode treeNode) {
-//        if (treeNode == null){
-//            System.out.println("null");
-//            return;
-//        }
-//        String res = "[" + treeNode.val;
-//
-//        res += "]";
-//        System.out.println(res);
-//    }
+
+    // 从github上抄来的直观打印二叉树的方法，回头再学
+    // The method of visually printing a binary tree copied from github, learn it later
+    public static void printTree(TreeNode head) {
+        System.out.println("Binary Tree:");
+        printInOrder(head, 0, "H", 16);
+        System.out.println();
+    }
+
+    private static void printInOrder(TreeNode head, int height, String to, int len) {
+        if (null == head) {
+            return;
+        }
+        printInOrder(head.right, height + 1, "v", len);
+        String val = to + head.val + to;
+        int lenM = val.length(); // val的字符长度
+        int lenL = (len - lenM) / 2; // val左边填充的空格符长度
+        int lenR = len - lenM - lenL; // val右边填充的空格符长度
+        val = getSpace(lenL) + val + getSpace(lenR);
+        System.out.println(getSpace(height * len) + val);
+        printInOrder(head.left, height + 1, "^", len);
+    }
+
+    private static String getSpace(int num) {
+        String space = " ";
+        StringBuffer buf = new StringBuffer("");
+        for (int i = 0; i < num; i++) {
+            buf.append(space);
+        }
+        return buf.toString();
+    }
 }
