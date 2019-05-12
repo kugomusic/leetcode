@@ -13,7 +13,7 @@ Use Java to make solutions of leetcode
 
 第一遍：实现功能即可；
 
-The first pass: just implement the functions;
+The first pass: just satisfy the requirements;
 
 第二遍：优化代码;
 
