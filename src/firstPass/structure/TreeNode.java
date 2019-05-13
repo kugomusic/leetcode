@@ -27,13 +27,15 @@ public class TreeNode {
             }
         }
         for (int i = 0; i < len ; i++) {
-            int leftIndex = i * 2 + 1;
-            if (leftIndex < len) {
-                treeNodes[i].left = treeNodes[leftIndex];
-            }
-            int rightIndex = leftIndex + 1;
-            if (rightIndex < len) {
-                treeNodes[i].right = treeNodes[rightIndex];
+            if (treeNodes[i] != null) {
+                int leftIndex = i * 2 + 1;
+                if (leftIndex < len) {
+                    treeNodes[i].left = treeNodes[leftIndex];
+                }
+                int rightIndex = leftIndex + 1;
+                if (rightIndex < len) {
+                    treeNodes[i].right = treeNodes[rightIndex];
+                }
             }
         }
         return treeNodes[0];
