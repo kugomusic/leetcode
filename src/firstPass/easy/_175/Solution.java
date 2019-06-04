@@ -15,8 +15,8 @@ Use LEFT JOIN
 
 public class Solution {
     // SQL语句如下
-    String SQL = "SELECT Person.FirstName, LastName, Address.City, Address.State" +
-                 "FROM Person" +
-                 "LEFT JOIN Address" +
+    String SQL = "SELECT Person.FirstName, LastName, Address.City, Address.State " +
+                 "FROM Person " +
+                 "LEFT JOIN Address " +
                  "ON Person.PersonId=Address.PersonId;";
 }

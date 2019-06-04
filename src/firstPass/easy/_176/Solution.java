@@ -15,10 +15,10 @@ Solution: Write another SELECT outside, if we SELECT from an empty table, it ret
 
 public class Solution {
     // SQL语句如下：
-    String SQL = "SELECT" +
-                 "(SELECT DISTINCT Salary" +
-                 "FROM Employee" +
-                 "ORDER BY Salary DESC" +
-                 "LIMIT 1, 1)" +
+    String SQL = "SELECT " +
+                 "(SELECT DISTINCT Salary " +
+                 "FROM Employee " +
+                 "ORDER BY Salary DESC " +
+                 "LIMIT 1, 1) " +
                  "AS SecondHighestSalary;";
 }
