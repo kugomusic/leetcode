@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# 需安装BashSupport插件！
+# 需安装BashSupport插件！
+# 需安装BashSupport插件！
+
 :<<!
 基本的shell使用 Basic shell
 grep 正则式；-E 扩展正则模式；\d == [0-9]; {n} 重复n次；注意：区分\(和(，空格不能省略
